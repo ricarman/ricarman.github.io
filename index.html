@@ -1,13 +1,12 @@
 ---
-layout: default
+layout: post
 ---
-
 
 {{ site.presentation }}
 <ul>
-  {% for post in site.posts %}
+  {% for post in site.post %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ site.article1 }}">{{ site.title1 }}</a>
       {{ post.excerpt }}
     </li>
   {% endfor %}
