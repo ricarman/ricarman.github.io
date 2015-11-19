@@ -4,9 +4,9 @@ layout: default
 
 {{ site.presentation }}
 <ul>
-  {% for post in site.post %}
+  {% for post in site.posts %}
     <li>
-      <a href="{{ site.article1 }}">{{ site.title1 }}</a>
+      <a href="{{ post.article1 }}">{{ post.title1 }}</a>
       {{ post.excerpt }}
     </li>
   {% endfor %}
