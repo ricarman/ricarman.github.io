@@ -1,1 +1,5 @@
-{{ site.article1 }}
+---
+title: titre article
+---
+
+contenu
