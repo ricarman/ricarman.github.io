@@ -1,5 +1,0 @@
----
-title: titre article
----
-
-contenu
